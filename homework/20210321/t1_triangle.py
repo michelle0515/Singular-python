@@ -33,18 +33,3 @@ elif a+c>b:
    print('area:',(p * (p - a) * (p - b) * (p - c)) ** 0.5,'perimeter:',a+b+c)
 else:
    print('Cannot form a triangle')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
