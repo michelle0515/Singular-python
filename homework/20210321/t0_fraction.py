@@ -12,3 +12,9 @@ Input1:6
 Input2:9
 Output:False
 """
+a = int(input('請輸入分子:'))
+b = int(input('請輸入分母:'))
+if a/b == 350/450:
+    print('TRUE')
+else:
+    print('FALSE')
