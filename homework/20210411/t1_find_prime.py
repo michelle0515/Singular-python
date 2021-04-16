@@ -4,3 +4,13 @@
 
 
 """
+#a=int(input('number:'))
+#for i in range(1,a+1):
+a=int(input('number:'))
+for i in range(2,a):
+    for r in range(1,i):
+     if i%r==0:
+        continue
+     else:
+        print(i)
+
