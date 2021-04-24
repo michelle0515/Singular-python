@@ -15,7 +15,7 @@ s2=
 #  append => add
 #  remove =>
 #  index  =>
-
+'''
 l=["apple","ball","banana"]
 print('kokokokokkok' in l)
-'''
+

@@ -3,3 +3,13 @@
 沒有str就加入list, 並顯示最後的list，list初使值為
 ["apple", "ball" ,"car"]
 '''
+l=['apple','ball','banana']
+a=input('word:')
+if a in l:
+    l.remove(a)
+else:
+    l.append(a)
+
+print (l)
+
+
