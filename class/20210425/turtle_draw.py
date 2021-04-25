@@ -1,0 +1,48 @@
+import turtle
+turtle.speed(0)
+def tree_leaves(x,y):
+    turtle.penup()
+    turtle.goto(x,y)
+    turtle.pendown()
+    turtle.setheading(0)
+    turtle.color('goldenrod')
+    turtle.begin_fill()
+    turtle.forward(60)
+    turtle.left(60)
+    turtle.forward(60)
+    turtle.left(60)
+    turtle.forward(60)
+    turtle.left(60)
+    turtle.forward(60)
+    turtle.left(60)
+    turtle.forward(60)
+    turtle.left(60)
+    turtle.forward(60)
+    turtle.left(60)
+    turtle.end_fill()
+
+def tree_trunk(x,y):
+    turtle.penup()
+    turtle.goto(x+12.5,y)
+    turtle.pendown()
+    turtle.color('saddlebrown')
+    turtle.begin_fill()
+    turtle.setheading(0)
+    turtle.forward(40)
+    turtle.right(90)
+    turtle.forward(60)
+    turtle.right(90)
+    turtle.forward(40)
+    turtle.right(90)
+    turtle.forward(60)
+    turtle.right(90)
+    turtle.end_fill()
+
+
+tree_leaves(0,0)
+tree_leaves(-20,20)
+tree_leaves(20,20)
+tree_leaves(0,40)
+tree_trunk(0,0)
+
+
