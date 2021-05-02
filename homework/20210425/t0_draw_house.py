@@ -4,10 +4,8 @@
 '''
 import turtle
 import random
-turtle.speed(0)
-l=['tomato','aquamarine','violet','slategray','blue','yellow','palegreen','steelblue','pink','tan']
-for i in range(-1,9):
-   def house_roof(x,y):
+
+def house_roof(x,y):
     turtle.penup()
     turtle.goto(x,y)
     turtle.pendown()
@@ -22,7 +20,7 @@ for i in range(-1,9):
     turtle.left(120)
     turtle.end_fill()
 
-   def house_body(x,y):
+def house_body(x,y):
     turtle.penup()
     turtle.goto(x,y)
     turtle.pendown()
@@ -38,9 +36,13 @@ for i in range(-1,9):
     turtle.forward(30)
     turtle.right(90)
     turtle.end_fill()
-   a=random.randint(-20,15)
-   b=random.randint(-10,20)
-   c=random.randint(-15,10)
-   d=random.randint(-20,20)
-   house_roof(a*b,c*d)
-   house_body(a*b,c*d)
+
+turtle.speed(0)
+l=['tomato','aquamarine','violet','slategray','blue','yellow','palegreen','steelblue','pink','tan']
+for i in range(10):
+    a=random.randint(-20,15)
+    b=random.randint(-10,20)
+    c=random.randint(-15,10)
+    d=random.randint(-20,20)
+    house_roof(a*b,c*d)
+    house_body(a*b,c*d)
