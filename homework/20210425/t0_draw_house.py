@@ -39,7 +39,7 @@ def house_body(x,y):
 
 turtle.speed(0)
 l=['tomato','aquamarine','violet','slategray','blue','yellow','palegreen','steelblue','pink','tan']
-for i in range(10):
+for i in range(-1,9):
     a=random.randint(-20,15)
     b=random.randint(-10,20)
     c=random.randint(-15,10)
