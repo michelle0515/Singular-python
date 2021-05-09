@@ -45,6 +45,7 @@ def fighting(status: list):
                 if status[5] >= 1:
                     attack = monster_life
                     status[5] -= 1
+                    break
                 else:
                     print('not enough')
                     attack = random.randint(1, 3) + status[4]
@@ -98,7 +99,7 @@ def store(status: list):
         elif (act == 'r'):
             status[5] += random.randint(1, 3)
             status[2] -= 500
-            print("Weapon=%d, Money=%d" % (status[4], status[2]))
+            print("reef=%d, Money=%d" % (status[5], status[2]))
         else:
             continue
     return status
@@ -125,6 +126,6 @@ while True:
     if (sts[0] == 0):
         print("Game Over")
         break
-    print("[[life = %d, money = %d, MP = %d, W= %d]]" % (sts[1], sts[2], sts[3], sts[4]))
-    time.sleep(1)
+    print("[[life = %d, money = %d, MP = %d, W= %d, r= %d]]" % (sts[1], sts[2], sts[3], sts[4], sts[5]))
+    time.sleep(2)
 
