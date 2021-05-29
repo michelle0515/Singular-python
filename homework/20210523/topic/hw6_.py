@@ -9,3 +9,4 @@ B. float, float, str, bool
 c. int, float, str, bool
 D. float, int, str, str
 '''
+ans:C

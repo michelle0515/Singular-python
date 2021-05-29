@@ -8,7 +8,7 @@ b = 5
 2.2
 
 回答區
-print(a / b) = (?)
-print(a // b) = (?)
-print(a % b) = (?)
+print(a / b) = (?)   ans:2.2
+print(a // b) = (?)   ans:2
+print(a % b) = (?)   ans:2
 '''
