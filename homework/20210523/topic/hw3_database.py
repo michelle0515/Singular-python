@@ -4,7 +4,7 @@
 以下的變數宣告後他們的資料類別是?請將嘗試碼進行正確的分類。
 int:apple、age
 bool:minor
-str:name
+str:name,zip
 float:weight
 example
 apple = 1000
