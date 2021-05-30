@@ -10,5 +10,5 @@ b = 5
 回答區
 print(a / b) = (?)   ans:2.2
 print(a // b) = (?)   ans:2
-print(a % b) = (?)   ans:2
+print(a % b) = (?)   ans:1
 '''
