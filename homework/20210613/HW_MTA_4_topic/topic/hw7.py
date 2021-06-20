@@ -12,10 +12,11 @@ else:
 D.
 else:
     print(name, "是大小寫混合.")
-E. 
+E.
 if name.upper() == name:
     print(name, "是全部大寫.")
 F.
 else:
     print(name, "是小寫.")
 '''
+AEBD

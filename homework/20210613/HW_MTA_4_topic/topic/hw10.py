@@ -19,7 +19,7 @@ party
 greeting
 birthday
 cake
-()B.
+(O)B.
 party
 cake
 birthday
@@ -35,3 +35,5 @@ greeting
 party
 cake
 '''
+
+

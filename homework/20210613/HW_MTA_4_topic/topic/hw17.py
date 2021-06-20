@@ -4,6 +4,6 @@
 
 ( )A. random.randrange(11, 21, 1)
 ( )B. random.randrange(11, 20, 1)
-( )C. random.randint(11, 20)
+(O)C. random.randint(11, 20)
 ( )D. random.randint(11, 21)
 '''

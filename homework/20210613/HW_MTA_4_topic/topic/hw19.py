@@ -4,16 +4,16 @@
 .最低的數字是2。
 .最高的數字是50。
 哪兩個程式碼片段將符合要求?
-( )A. 
+(O)A.
 from random import randint
 print(randint(1, 25) * 2)
-( )B. 
+( )B.
 from random import randint
 print(randint(1, 50))
-( )C. 
+(O)C.
 from random import randrange
 print(randrange(2, 50, 2))
-( )D. 
+( )D.
 from random import randrange
 print(randrange(2, 50, 1))
 '''

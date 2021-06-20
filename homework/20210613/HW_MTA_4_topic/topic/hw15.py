@@ -12,20 +12,20 @@ if nList[index] == 4 :
 else:
     __(3)__
 
-( )(1) 
-A. while 
+(A)(1)
+A. while
 B. for
 c, if
 D. break
-( )(2) 
+(D)(2)
 A. while
-B. for 
+B. for
 C. if
 D. break
-( )(3) 
-A. continue 
-B. break 
-C. index += 1 
+(C)(3)
+A. continue
+B. break
+C. index += 1
 D. index = 1
 
 '''

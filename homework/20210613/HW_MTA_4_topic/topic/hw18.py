@@ -4,5 +4,5 @@
 ( )A. random.random()
 ( )B. random.randrange(0.0, 1.0)
 ( )C. random.randrange()
-( )D. random.randint(0, 10)
+(O)D. random.randint(0, 10)
 '''

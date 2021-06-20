@@ -19,6 +19,6 @@ while (score != -1):
     average = sum / count
     print("(1), 你的平均分數是：(2)" % (name, average))
 '''
-( )(1)A. %-20i B. %-20d C. %-20f D. %-20s 
-( )(2)A. %1.6s B. %6.2f C. %6.2d D. %2.6f 
+(D)(1)A. %-20i B. %-20d C. %-20f D. %-20s
+(B)(2)A. %1.6s B. %6.2f C. %6.2d D. %2.6f
 '''

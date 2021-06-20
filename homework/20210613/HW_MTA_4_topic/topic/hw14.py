@@ -15,16 +15,16 @@ __(2)__
             __(4)__
     print(valid)
 
-( )(1) 
+(B)(1)
 A.product_no = ""
 B.product_no ="sentinel"
-( )(2) 
+(A)(2)
 A.while product_no != "":
 B.while product_no != "sentinel":
-( )(3) 
-A.valid = False 
+(A)(3)
+A.valid = False
 B.valid = True
-( )(4) 
-A.valid = False 
+(B)(4)
+A.valid = False
 B.valid = True
 '''
